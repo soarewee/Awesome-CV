@@ -81,29 +81,44 @@
 \defaultfontfeatures{
   Renderer=HarfBuzz,
 }
-\setmainfont{Source Sans 3}[
+\setmainfont{SourceSans3.ttf}[
+  Path=examples/fonts/,
   UprightFont=*,
-  ItalicFont=* Italic,
-  BoldFont=* Bold,
-  BoldItalicFont=* Bold Italic,
-  FontFace={l}{n}{Font=* Light},
-  FontFace={l}{it}{Font=* Light Italic},
+  UprightFeatures={Weight=400},
+  ItalicFont=SourceSans3-Italic.ttf,
+  ItalicFeatures={Weight=400},
+  BoldFont=*,
+  BoldFeatures={Weight=700},
+  BoldItalicFont=SourceSans3-Italic.ttf,
+  BoldItalicFeatures={Weight=700},
+  FontFace={l}{n}{Font=*, Weight=300},
+  FontFace={l}{it}{Font=SourceSans3-Italic.ttf, Weight=300},
 ]
-\setsansfont{Source Sans 3}[
+\setsansfont{SourceSans3.ttf}[
+  Path=examples/fonts/,
   UprightFont=*,
-  ItalicFont=* Italic,
-  BoldFont=* Bold,
-  BoldItalicFont=* Bold Italic,
-  FontFace={l}{n}{Font=* Light},
-  FontFace={l}{it}{Font=* Light Italic},
+  UprightFeatures={Weight=400},
+  ItalicFont=SourceSans3-Italic.ttf,
+  ItalicFeatures={Weight=400},
+  BoldFont=*,
+  BoldFeatures={Weight=700},
+  BoldItalicFont=SourceSans3-Italic.ttf,
+  BoldItalicFeatures={Weight=700},
+  FontFace={l}{n}{Font=*, Weight=300},
+  FontFace={l}{it}{Font=SourceSans3-Italic.ttf, Weight=300},
 ]
-\newfontfamily\roboto{Roboto}[
+\newfontfamily\roboto{Roboto.ttf}[
+  Path=examples/fonts/,
   UprightFont=*,
-  ItalicFont=* Italic,
-  BoldFont=* Bold,
-  BoldItalicFont=* Bold Italic,
-  FontFace={l}{n}{Font=* Light},
-  FontFace={l}{it}{Font=* Light Italic},
+  UprightFeatures={Weight=400},
+  ItalicFont=Roboto-Italic.ttf,
+  ItalicFeatures={Weight=400},
+  BoldFont=*,
+  BoldFeatures={Weight=700},
+  BoldItalicFont=Roboto-Italic.ttf,
+  BoldItalicFeatures={Weight=700},
+  FontFace={l}{n}{Font=*, Weight=300},
+  FontFace={l}{it}{Font=Roboto-Italic.ttf, Weight=300},
 ]
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
